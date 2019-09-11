@@ -1,6 +1,6 @@
 ---
-title: "SEM_Bowen_et_al._(2017)"
-author: "shenmy"
+title: "Task1-SEM_Bowen_et_al._(2017)"
+author: "Mengyuan Shen"
 date: "2019年9月11日"
 output: html_document
 ---
@@ -16,7 +16,7 @@ output: html_document
 
 按照文章提供的代码尝试进行了简化SEM的拟合如下：
 ```{r}
-bowen <- read.csv("../Data/bowen.csv")
+bowen <- read.csv("https://raw.githubusercontent.com/shenmengyuan/SEM_panda/master/Data/bowen.csv")
 bowen <- na.omit(bowen)
 library(piecewiseSEM)
 library(nlme)
